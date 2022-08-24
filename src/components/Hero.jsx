@@ -11,27 +11,27 @@ const Hero = () => {
                 <h1
                     className="mb-8 text-4xl font-bold leading-snug text-dark sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center sm:text-left"
                 >
-                    <span className='font-light'>Moreplex's </span>
+                    {/* <span className='font-light'>Moreplex's </span> */}
                     <br />
-                    <span className="text-primary_gold font-extrabold">AI SkinCare Advisor</span>
+                    <span className="text-primary_gold font-extrabold">smartDerm</span>
                 </h1>
                 <p className="mb-12 max-w-[480px] text-base text-body-color text-center sm:text-left">
-                    Personalized and clinically effective skincare solutions for your skin based on your life, habit and environment
+                    Personalized, Ai Powered and clinically effective skincare solutions for your skin based on your life, habit and environment
                 </p>
                 <div className='flex justify-center sm:justify-start'>
                 <button className="inline-flex items-center rounded-sm bg-green-900 py-2.5 px-6 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10 justify-center">
                         Analyse Your Skin
                         <svg
-                        class="w-5 h-5 ml-3"
+                        className="w-5 h-5 ml-3"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
                     >
                         <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M17 8l4 4m0 0l-4 4m4-4H3"
                         />
                     </svg>
