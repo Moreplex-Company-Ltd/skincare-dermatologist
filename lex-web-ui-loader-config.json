@@ -1,0 +1,73 @@
+{
+    "region": "us-west-2",
+    "cognito": {
+    "poolId": "us-west-2:57bb2c52-c83a-435b-a6d8-506463a4545b",
+    "appUserPoolClientId": "61rcg23jh58m3frl8cbnms8st9",
+    "appUserPoolName": "us-west-2_ODwMBmep4",
+    "appDomainName": "lexkwebkuikidentitypoolconfigkbafaihtgwdtti475620728016.auth.us-west-2.amazoncognito.com",
+    "aws_cognito_region": "us-west-2",
+    "region": "us-west-2"
+    },
+    "connect": {
+    "contactFlowId": "",
+    "instanceId": "",
+    "apiGatewayEndpoint": "",
+    "promptForNameMessage": "Before starting a live chat, please tell me your name?",
+    "waitingForAgentMessage": "Thanks for waiting. An agent will be with you when available.",
+    "waitingForAgentMessageIntervalSeconds": "60",
+    "agentJoinedMessage": "{Agent} has joined.",
+    "agentLeftMessage": "{Agent} has left.",
+    "chatEndedMessage": "Chat ended.",
+    "attachChatTranscript": "false",
+    "liveChatTerms": "live chat"
+    },
+    "lex": {
+    "v2BotId": "QYKE24FUHM",
+    "v2BotAliasId": "TSTALIASID",
+    "v2BotLocaleId": "en_US",
+    "botName": "QYKE24FUHM",
+    "botAlias": "$LATEST",
+    "initialText": "Tell us a bit about how we can help you, start by saying \"Starting my skincare journey\"",
+    "initialSpeechInstruction": "Say 'Starting my skincare journey' to get started.",
+    "initialUtterance": "Starting my skincare journey",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "us-west-2",
+    "retryOnLexPostTextTimeout": "true",
+    "retryCountPostTextTimeout": "3"
+    },
+    "ui": {
+    "parentOrigin": "https://smartderm.moreplexgh.com",
+    "toolbarTitle": "SMARTDERM",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": false,
+    "enableLiveChat": false,
+    "forceLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": true,
+    "saveHistory": true,
+    "helpContent": {},
+    "enableSFX": false,
+    "minButtonContent": "",
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false,
+    "backButton": false,
+    "messageMenu": true,
+    "hideButtonMessageBubble": false
+    },
+    "polly": {
+    "voiceId": "Salli"
+    },
+    "recorder": {
+    "preset": "speech_recognition"
+    },
+    "iframe": {
+    "iframeOrigin": "https://d3s1ethlxzk5eo.cloudfront.net",
+    "shouldLoadIframeMinimized": true,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+    }
+    }
