@@ -9,7 +9,7 @@ const SingleComponent = ({position, number, title, description}) => {
                 >
                     <img
                     className="absolute inset-0 object-cover w-full h-full"
-                    src="assets/images/skin/image-4.jpeg"
+                    src="/assets/images/skin/image-4.jpeg"
                     alt="Man using a computer"
                     />
                 </div>

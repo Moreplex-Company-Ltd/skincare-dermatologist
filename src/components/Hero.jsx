@@ -47,16 +47,16 @@ const Hero = () => {
                     <div className="flex justify-center items-center ">
                     <div className=" w-full  py-2 flex items-center">
                         <p className='font-light'>Effective</p>
-                        <img src="assets/images/icons/target.png" className='ml-2 h-6 w-6' alt="effective" />
+                        <img src="/assets/images/icons/target.png" className='ml-2 h-6 w-6' alt="effective" />
                     </div>
                     <div className=" w-full py-3 flex ">
                         <p className='font-light'>Natural</p>
-                        <img src="assets/images/icons/planet-earth.png" className='ml-2 h-6 w-6' alt="natural"
+                        <img src="/assets/images/icons/planet-earth.png" className='ml-2 h-6 w-6' alt="natural"
                         />
                     </div>
                     <div className=" w-full py-3 flex items-center">
                         <p className='font-light'>Data Powered</p>
-                        <img src="assets/images/icons/dashboard.png" className='ml-2 h-6 w-6' alt="ai powered" />
+                        <img src="/assets/images/icons/dashboard.png" className='ml-2 h-6 w-6' alt="ai powered" />
                     </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ const Hero = () => {
                 <div className="lg:ml-auto lg:text-right">
                 <div className="relative z-10 inline-block pt-11 lg:pt-0">
                     <img
-                    src="assets/images/skin/image-3.jpeg"
+                    src="/assets/images/skin/image-3.jpeg"
                     alt="hero"
                     className="max-w-full lg:ml-auto"
                     />

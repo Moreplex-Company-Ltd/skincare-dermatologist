@@ -33,13 +33,13 @@ const SectionTwo = () => {
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
                     <img
                     alt="#"
-                    src="assets/images/skin/image-1.jpeg"
+                    src="/assets/images/skin/image-1.jpeg"
                     className="object-cover w-full h-40 sm:h-56 md:h-full"
                     />
 
                     <img
                     alt="#"
-                    src="assets/images/skin/image-2.jpg"
+                    src="/assets/images/skin/image-2.jpg"
                     className="object-cover w-full h-40 sm:h-56 md:h-full"
                     />
                 </div>
