@@ -46,7 +46,7 @@ const SectionThree = () => {
             <SingleComponent 
                 position='right' 
                 number="02"
-                title="Take the Skincare Quiz"
+                title="Tell us about your Skin and life style"
                 description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
                 atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
                 veniam tempora deserunt? Molestiae eius quidem quam repellat."

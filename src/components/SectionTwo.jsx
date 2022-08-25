@@ -9,15 +9,15 @@ const SectionTwo = () => {
                 <div className="p-8 bg-blue-600 md:p-12 lg:px-16 lg:py-24">
                     <div className="max-w-xl mx-auto text-center">
                     <h2 className="text-2xl font-bold text-white md:text-3xl">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                    Start Your Beauty Discovery journey. Let’s walk it with you
                     </h2>
 
-                    <p className="hidden sm:block sm:mt-4 text-white/90">
+                    {/* <p className="hidden sm:block sm:mt-4 text-white/90">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
                         tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim
                         et fermentum, augue. Aliquet amet volutpat quisque ut interdum
                         tincidunt duis.
-                    </p>
+                    </p> */}
 
                     <div className="mt-4 md:mt-8">
                         <a
