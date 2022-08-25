@@ -9,7 +9,7 @@ const SingleComponent = ({position, number, title, description}) => {
                 >
                     <img
                     className="absolute inset-0 object-cover w-full h-full"
-                    src="/assets/images/skin/image-4.jpeg"
+                    src="https://res.cloudinary.com/jondexter/image/upload/v1661396326/smartDerm/image-4_wyazsd.jpg"
                     alt="Man using a computer"
                     />
                 </div>

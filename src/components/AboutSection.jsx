@@ -18,7 +18,7 @@ const AboutSection = () => {
                         </div>
                         <div className="py-3 sm:py-4">
                         <img
-                            src="/assets/images/skin/image-5.jpeg"
+                            src="https://res.cloudinary.com/jondexter/image/upload/v1661396328/smartDerm/image-5_pwtszs.jpg"
                             alt=""
                             className="w-full rounded-2xl"
                         />
@@ -27,7 +27,7 @@ const AboutSection = () => {
                     <div className="w-full px-3 sm:px-4 xl:w-1/2">
                         <div className="relative z-10 my-4">
                         <img
-                            src="/assets/images/skin/image-6.jpeg"
+                            src="https://res.cloudinary.com/jondexter/image/upload/v1661396326/smartDerm/image-6_p0ngc1.jpg"
                             alt=""
                             className="w-full rounded-2xl"
                         />

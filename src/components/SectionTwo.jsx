@@ -33,7 +33,7 @@ const SectionTwo = () => {
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
                     <img
                     alt="#"
-                    src="/assets/images/skin/image-1.jpeg"
+                    src="https://res.cloudinary.com/jondexter/image/upload/v1661396325/smartDerm/image-1_nb1rx7.jpg"
                     className="object-cover w-full h-40 sm:h-56 md:h-full"
                     />
 
