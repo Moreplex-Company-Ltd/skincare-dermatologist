@@ -11,7 +11,7 @@ const AboutSection = () => {
                     <div className="w-full px-3 sm:px-4 xl:w-1/2">
                         <div className="py-3 sm:py-4">
                         <img
-                            src="assets/images/skin/image-2.png"
+                            src="assets/images/skin/image-2.jpg"
                             alt=""
                             className="w-full rounded-2xl"
                         />
@@ -27,7 +27,7 @@ const AboutSection = () => {
                     <div className="w-full px-3 sm:px-4 xl:w-1/2">
                         <div className="relative z-10 my-4">
                         <img
-                            src="assets/images/skin/image-6.webp"
+                            src="assets/images/skin/image-6.jpeg"
                             alt=""
                             className="w-full rounded-2xl"
                         />

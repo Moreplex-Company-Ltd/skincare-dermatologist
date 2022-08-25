@@ -39,7 +39,7 @@ const SectionTwo = () => {
 
                     <img
                     alt="#"
-                    src="assets/images/skin/image-2.png"
+                    src="assets/images/skin/image-2.jpg"
                     className="object-cover w-full h-40 sm:h-56 md:h-full"
                     />
                 </div>
