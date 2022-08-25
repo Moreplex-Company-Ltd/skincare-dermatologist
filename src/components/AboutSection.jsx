@@ -614,15 +614,13 @@ const AboutSection = () => {
                         Personalized Skincare that just work for you.
                     </h2>
                     <p className="mb-8 text-base text-body-color">
-                        It is a long established fact that a reader will be distracted
-                        by the readable content of a page when looking at its layout.
-                        The point of using Lorem Ipsum is that it has a more-or-less.
+                    Our personalized skin care solution uses data science and human expertise to create an effective skincare regimen that evolves with your biology, your environment and your lifestyle. We take the guesswork out of your skin care routine so you don’t have to go through trials-and-errors and risk damaging your skin.
                     </p>
-                    <p className="mb-12 text-base text-body-color">
+                    {/* <p className="mb-12 text-base text-body-color">
                         A domain name is one of the first steps to establishing your
                         brand. Secure a consistent brand image with a domain name that
                         matches your business.
-                    </p>
+                    </p> */}
                     <a
                         href="/"
                         className="inline-flex items-center justify-center rounded-sm bg-green-900 py-4 px-10 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-8 xl:px-10"

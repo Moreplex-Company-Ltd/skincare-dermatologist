@@ -2,7 +2,7 @@ import React from 'react'
 
 const SingleComponent = ({position, number, title, description}) => {
     return (
-        <div className="max-w-screen-xl px-4 py-0 mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-screen-xl px-4 py-0 mx-auto sm:px-6 lg:px-8 mt-10">
                 <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
                 <div
                     className={`relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full ${position === 'left' ? 'lg:order-last' : 'lg:order-first'}`}
@@ -39,25 +39,19 @@ const SectionThree = () => {
                 position='left' 
                 number="01"
                 title="Create an Account"
-                description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-                atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-                veniam tempora deserunt? Molestiae eius quidem quam repellat."
+                description=""
             />
             <SingleComponent 
                 position='right' 
                 number="02"
                 title="Tell us about your Skin and life style"
-                description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-                atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-                veniam tempora deserunt? Molestiae eius quidem quam repellat."
+                description=""
             />
             <SingleComponent 
                 position='left' 
                 number="03"
                 title="Get your Personalized SkinCare Products"
-                description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-                atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-                veniam tempora deserunt? Molestiae eius quidem quam repellat."
+                description=""
             />
 
         </section>

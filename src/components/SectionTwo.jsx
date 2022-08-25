@@ -3,7 +3,7 @@ import React from 'react'
 const SectionTwo = () => {
   return (
     <React.Fragment>
-        <section className=''>
+        <section className='mt-28'>
             <div className="px-4 py-8 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                 <div className="p-8 bg-blue-600 md:p-12 lg:px-16 lg:py-24">

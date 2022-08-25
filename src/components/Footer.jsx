@@ -42,7 +42,7 @@ const Footer = () => {
       </div> */}
       <div className='grid grid-cols-1 sm:grid-cols-2 py-7'>
       <div className='text-center sm:text-left'>
-            <h1 className='mb-5 font-bold text-2xl'>Moreplex's Ai SkinCare Advisor</h1>
+            <h1 className='mb-5 font-bold text-2xl'>smartDerm</h1>
             <p>Smartderm is made to remove the guesswork in your skincare journey. Get to understand your skin and the products that works for your condition.</p>
       </div>
       <div className='flex justify-between px-0 mt-10  sm:mt-0 sm:px-20'>
