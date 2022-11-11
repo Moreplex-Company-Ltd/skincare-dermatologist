@@ -40,18 +40,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-
     <script src="https://d3s1ethlxzk5eo.cloudfront.net/lex-web-ui-loader.min.js"></script>
-  <script>
-    var loaderOpts = {
-      baseUrl: 'https://d3s1ethlxzk5eo.cloudfront.net/',
-      shouldLoadMinDeps: true
-    };
-    
-    var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
-    console.log(loader)
-    var chatbotUiConfig = {
-            /* Example of setting session attributes on parent page
+    <script>
+      var loaderOpts = {
+        baseUrl: "https://d3s1ethlxzk5eo.cloudfront.net/",
+        shouldLoadMinDeps: true,
+      };
+
+      var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+      console.log(loader);
+      var chatbotUiConfig = {
+        /* Example of setting session attributes on parent page
             lex: {
               sessionAttributes: {
                 userAgent: navigator.userAgent,
@@ -59,10 +58,13 @@
               }
             }
             */
-          };
-    loader.load(chatbotUiConfig)
-      .then( res=>console.log(res) )
-      .catch(function (error) { console.error(error); });
-  </script>
+      };
+      loader
+        .load(chatbotUiConfig)
+        .then((res) => console.log(res))
+        .catch(function (error) {
+          console.error(error);
+        });
+    </script>
   </body>
 </html>
